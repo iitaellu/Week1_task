@@ -5,7 +5,7 @@ const addButton = document.getElementById("add-data");
 
 helloButton.addEventListener("click", function () {
   console.log("Hello World");
-  var x = document.getElementById("head");
+  var x = document.getElementById("head"); //help From https://www.geeksforgeeks.org/how-to-change-the-text-of-a-label-using-javascript/
   x.innerHTML = "My notebook";
 });
 
